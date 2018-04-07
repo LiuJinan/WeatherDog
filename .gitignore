@@ -5,3 +5,6 @@
 *.ipr
 
 target
+
+### Sensitive information files are not submitted
+application-*.properties
