@@ -10,16 +10,6 @@ public class WeatherRequest {
 
     private String unit;
 
-    public static WeatherRequest defaultRequest() {
-        WeatherRequest request = new WeatherRequest();
-        request.setKey("ysdw8fxaeuyabw3n");
-        request.setLocation("WS0E9D8WN298");        // 广州： WS0E9D8WN298
-        request.setLanguage("zh-Hans");             //简体
-        request.setUnit("c");           //温度
-        return  request;
-    }
-
-
     public String getKey() {
         return key;
     }

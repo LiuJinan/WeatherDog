@@ -6,5 +6,5 @@ public interface WeatherService {
      * 通知下雨
      * @return
      */
-    public boolean notifyOfRain();
+    boolean notifyOfRain();
 }

@@ -21,6 +21,7 @@ public class WeatherJob {
      *  早上执行任务， 通知下雨
      */
     @Scheduled(cron = "0 0 7 * * ?")
+//    @Scheduled(cron = "0 * * * * ?")
     public void test() {
         logger.info("开始执行任务");
         weatherService.notifyOfRain();
